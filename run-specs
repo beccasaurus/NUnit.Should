@@ -1,0 +1,2 @@
+#! /bin/bash
+rm -rfv bin && xbuild && NUNIT_CONSOLE=./tools/nunit-console.exe ./tools/nunit-color-console.exe -labels $@ ./bin/Debug/NUnit.Should.Specs.dll
