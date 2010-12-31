@@ -93,5 +93,5 @@ NUnit.Should is released under the MIT license.
 [core]:    https://github.com/remi/NUnit.Should/blob/master/src/NUnit.Should.cs
 [helpers]: https://github.com/remi/NUnit.Should/blob/master/src/HelperMethods.cs
 
-[Download .dll]: http://github.com/remi/NUnit.Should/raw/1.0.0.0/Build/Release/Requestor.dll
+[Download .dll]: http://github.com/remi/NUnit.Should/raw/1.0.0.0/Build/Release/NUnit.Should.dll
 [Browse Source]: http://github.com/remi/NUnit.Should/tree/1.0.0.0
