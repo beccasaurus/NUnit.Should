@@ -24,7 +24,7 @@ I like NUnit.  When I started doing .NET development back in 2005, it was the co
 Although Visual Studio now comes with MSTest, I've found that NUnit still seems to be the conventional testing library 
 for open-source projects.
 
-I have a big problem with NUnit, however.  For the past 3-4 years, I've been writing assertions like this using [RSpec][]:
+I have a problem with [NUnit][], however.  For the past 3-4 years, I've been writing assertions like this using [RSpec][]:
 
     the_number.should == 5
     the_dogs.should include('rover')
