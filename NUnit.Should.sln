@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.Should", "src\NUnit.Should.csproj", "{072ABDD4-4C65-4921-955A-F07D15F0CEFF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.Should", "src\NUnit.Should.NET20.csproj", "{072ABDD4-4C65-4921-955A-F07D15F0CEFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.Should", "src\NUnit.Should.NET30.csproj", "{1384D114-0860-40D9-8A35-916F1C7CC0B7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.Should.Specs", "spec\NUnit.Should.Specs.csproj", "{C740B942-D574-49F5-82DB-B65FC45534FA}"
 EndProject
@@ -15,6 +17,10 @@ Global
 		{072ABDD4-4C65-4921-955A-F07D15F0CEFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{072ABDD4-4C65-4921-955A-F07D15F0CEFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{072ABDD4-4C65-4921-955A-F07D15F0CEFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1384D114-0860-40D9-8A35-916F1C7CC0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1384D114-0860-40D9-8A35-916F1C7CC0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1384D114-0860-40D9-8A35-916F1C7CC0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1384D114-0860-40D9-8A35-916F1C7CC0B7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C740B942-D574-49F5-82DB-B65FC45534FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C740B942-D574-49F5-82DB-B65FC45534FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C740B942-D574-49F5-82DB-B65FC45534FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
