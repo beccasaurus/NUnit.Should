@@ -61,7 +61,7 @@ So NUnit.Should was born.
 The Code
 --------
 
-The code is so tiny that I pasted it right here in the README.  Now ... there are also some `Should*()` [helper methods][] available, but this is the main code.
+The code is so tiny that I pasted it right here in the README.  There are also some `Should*()` [helper methods][] available, but this is the main NUnit.Should code.
 
     using System;
     using System.Collections;
