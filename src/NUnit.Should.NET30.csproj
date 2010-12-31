@@ -5,27 +5,28 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C740B942-D574-49F5-82DB-B65FC45534FA}</ProjectGuid>
+    <ProjectGuid>{1384D114-0860-40D9-8A35-916F1C7CC0B7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NUnit.Should.Specs</RootNamespace>
-    <AssemblyName>NUnit.Should.Specs</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <RootNamespace>NUnit.Should</RootNamespace>
+    <AssemblyName>NUnit.Should</AssemblyName>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\bin\Debug\NET20\</OutputPath>
+    <OutputPath>..\bin\Debug\NET30\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\bin\Debug\NUnit.Should.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\bin\Release\NET20\</OutputPath>
+    <OutputPath>..\bin\Release\NET30\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -40,13 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="**\*.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\src\NUnit.Should.NET20.csproj">
-      <Project>{072ABDD4-4C65-4921-955A-F07D15F0CEFF}</Project>
-      <Name>NUnit.Should</Name>
-    </ProjectReference>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="NUnit.Should.cs" />
+    <Compile Include="HelperMethods.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

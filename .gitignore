@@ -1,6 +1,5 @@
 *.sw?
 *.suo
-bin
 obj
 Debug
 Release

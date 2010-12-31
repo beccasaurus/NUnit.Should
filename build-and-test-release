@@ -1,0 +1,12 @@
+#! /bin/bash
+run_specs() {
+	NUNIT_CONSOLE=./tools/nunit-console.exe ./tools/nunit-color-console.exe ./bin/Release/$1/NUnit.Should.Specs.dll
+}
+
+rm -rfv bin                                           && \
+xbuild /p:Configuration=Release                       && \
+echo -e "\n[Running Specs against .NET 2.0]\n"        && \
+run_specs NET20                                       && \
+echo -e "\n[Running Specs against .NET 3.0]\n"        && \
+cp -v ./bin/Release/NET20/*Spec* ./bin/Release/NET30/ && \
+run_specs NET30
