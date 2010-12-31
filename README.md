@@ -90,8 +90,8 @@ NUnit.Should is released under the MIT license.
 
 [NUnit]:   http://nunit.org
 [RSpec]:   http://rspec.info
-[core]:    #
-[helpers]: # 
+[core]:    https://github.com/remi/NUnit.Should/blob/master/src/NUnit.Should.cs
+[helpers]: https://github.com/remi/NUnit.Should/blob/master/src/HelperMethods.cs
 
 [Download .dll]: http://github.com/remi/NUnit.Should/raw/1.0.0.0/Build/Release/Requestor.dll
 [Browse Source]: http://github.com/remi/NUnit.Should/tree/1.0.0.0

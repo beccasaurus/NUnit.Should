@@ -9,7 +9,7 @@ namespace NUnit.Framework {
 	//
 	// These are additional .Should*() helper methods to help us 
 	// write specs that may be easier to read
-    public static partial class ShouldExtensions {
+	public static partial class ShouldExtensions {
 
 		public static void ShouldEqual<T>(this T a, T b) {
 			a.Should(Be.EqualTo(b));
