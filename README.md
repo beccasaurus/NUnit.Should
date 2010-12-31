@@ -29,7 +29,9 @@ I have a problem with [NUnit][], however.  For the past 3-4 years, I've been wri
     the_number.should == 5
     the_dogs.should include('rover')
 
-That are 2 different styles of writing these types of assertions in NUnit:
+I love the RSpec syntax for making assertions.  It's very natural.
+
+In NUnit, there are 2 different styles that I could use to write similar assertions:
 
     Assert.AreEqual(5, theNumber);
     Assert.Contains("rover", theDogs);
