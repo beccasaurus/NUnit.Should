@@ -45,7 +45,7 @@ That's not too bad, right?
 
 Well, when I recently started doing C# full-time again, I didn't mind using Assert.Whatever(expected, actual) or the Assert.That syntax (which reads better, but is very verbose).
 
-But then I realized that the language you use to write your specs is *actually __important!__*  There's a *reason* why BDD frameworks use `Should` instead of `Assert`, even though they do the same things.
+But then I remembered that the language you use to write your specs is *actually __important!__*  There's a *reason* why BDD frameworks use `Should` instead of `Assert`, even though they do the same things.
 
 When you say `something.Should(be in some state)` you're more likely to check for an object's behaviors/states, in my honest opinion.  When you `Assert.AreEqual(foo, bar)` you're more likely to be writing low level "unit tests."
 
