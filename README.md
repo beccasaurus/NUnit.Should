@@ -11,7 +11,7 @@ It's done using a *whole* [16 lines of code][core] plus some optional `Should*()
 Download
 --------
 
-Latest version: 1.0.0.0
+Latest version: 1.0.1.0
 
 Download .dll for [.NET 2.0][2.0] or [.NET 3.0][3.0]+
 
@@ -95,6 +95,6 @@ NUnit.Should is released under the MIT license.
 [core]:    https://github.com/remi/NUnit.Should/blob/master/src/NUnit.Should.cs
 [helpers]: https://github.com/remi/NUnit.Should/blob/master/src/HelperMethods.cs
 
-[2.0]:           http://github.com/remi/NUnit.Should/raw/1.0.0.0/bin/Release/NET20/NUnit.Should.dll
-[3.0]:           http://github.com/remi/NUnit.Should/raw/1.0.0.0/bin/Release/NET30/NUnit.Should.dll
-[Browse Source]: http://github.com/remi/NUnit.Should/tree/1.0.0.0
+[2.0]:           http://github.com/remi/NUnit.Should/raw/1.0.1.0/bin/Release/NET20/NUnit.Should.dll
+[3.0]:           http://github.com/remi/NUnit.Should/raw/1.0.1.0/bin/Release/NET30/NUnit.Should.dll
+[Browse Source]: http://github.com/remi/NUnit.Should/tree/1.0.1.0
