@@ -22,9 +22,17 @@ namespace NUnit.Framework {
 		public static void ShouldContain<T>(this IEnumerable<T> list, T item) {
 			list.Should(Contain.Item(item));
 		}
+		
+		public static void ShouldNotContain<T>(this IEnumerable<T> list, T item) {
+			list.ShouldNot(Contain.Item(item));
+		}
 
 		public static void ShouldContain(this string full, string part) {
 			full.Should(Be.StringContaining(part));
+		}
+
+		public static void ShouldNotContain(this string full, string part) {
+			full.ShouldNot(Be.StringContaining(part));
 		}
 
 		public static void ShouldBeFalse(this bool b) {

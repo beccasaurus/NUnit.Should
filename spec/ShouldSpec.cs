@@ -28,7 +28,11 @@ public class HelperMethodsSpec {
 
 	[Test] public void ShouldContain_TEnum() { new string[] { "hi", "there" }.ShouldContain("hi"); }
 
+	[Test] public void ShouldNotContain_TEnum() { new string[] { "hi", "there" }.ShouldNotContain("foo"); }
+
 	[Test] public void ShouldContain_Strings() { "Foo Bar".ShouldContain("Bar"); }
+
+	[Test] public void ShouldNotContain_Strings() { "Foo Bar".ShouldNotContain("HiThere"); }
 
 	[Test] public void ShouldBeFalse() { false.ShouldBeFalse(); }
 
