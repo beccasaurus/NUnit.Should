@@ -11,6 +11,10 @@ It's done using a *whole* [16 lines of code][core] plus some optional `Should*()
 Download
 --------
 
+    Install-Package NUnit.Should
+
+or:
+
 Latest version: 1.0.1.0
 
 Download .dll for [.NET 2.0][2.0] or [.NET 3.0][3.0]+
