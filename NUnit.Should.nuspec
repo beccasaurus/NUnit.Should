@@ -2,12 +2,12 @@
 <package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>NUnit.Should</id>
-    <version>1.0.1.0</version>
+    <version>1.0.2.0</version>
     <authors>remi Taylor</authors>
     <description>Adds BDD .Should() assertion syntax to NUnit</description>
     <projectUrl>https://github.com/remi/NUnit.Should</projectUrl>
     <dependencies>
-      <dependency id="NUnit" version="2.5.7" />
+      <dependency id="NUnit" version="2.5.9.10348" />
     </dependencies>
   </metadata>
   <files>
